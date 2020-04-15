@@ -1,0 +1,128 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.flutterapp"
+4    android:versionCode="1"
+5    android:versionName="1.0.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="16"
+9        android:targetSdkVersion="28" />
+10    <!--
+11         Flutter needs it to communicate with the running application
+12         to allow setting breakpoints, to provide hot reload, etc.
+13    -->
+14    <uses-permission android:name="android.permission.INTERNET" />
+14-->/Users/mac/Documents/flutter_app/android/app/src/debug/AndroidManifest.xml:6:5-66
+14-->/Users/mac/Documents/flutter_app/android/app/src/debug/AndroidManifest.xml:6:22-64
+15    <!-- 用于进行网络定位 -->
+16    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" /> <!-- 用于访问GPS定位 -->
+16-->[:amap_location_fluttify] /Users/mac/Documents/flutter_app/build/amap_location_fluttify/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-81
+16-->[:amap_location_fluttify] /Users/mac/Documents/flutter_app/build/amap_location_fluttify/intermediates/library_manifest/debug/AndroidManifest.xml:7:22-78
+17    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" /> <!-- 用于获取运营商信息，用于支持提供运营商信息相关的接口 -->
+17-->[:amap_location_fluttify] /Users/mac/Documents/flutter_app/build/amap_location_fluttify/intermediates/library_manifest/debug/AndroidManifest.xml:9:5-79
+17-->[:amap_location_fluttify] /Users/mac/Documents/flutter_app/build/amap_location_fluttify/intermediates/library_manifest/debug/AndroidManifest.xml:9:22-76
+18    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" /> <!-- 用于访问wifi网络信息，wifi信息会用于进行网络定位 -->
+18-->[:amap_location_fluttify] /Users/mac/Documents/flutter_app/build/amap_location_fluttify/intermediates/library_manifest/debug/AndroidManifest.xml:11:5-79
+18-->[:amap_location_fluttify] /Users/mac/Documents/flutter_app/build/amap_location_fluttify/intermediates/library_manifest/debug/AndroidManifest.xml:11:22-76
+19    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" /> <!-- 用于获取wifi的获取权限，wifi信息会用来进行网络定位 -->
+19-->[:amap_location_fluttify] /Users/mac/Documents/flutter_app/build/amap_location_fluttify/intermediates/library_manifest/debug/AndroidManifest.xml:13:5-76
+19-->[:amap_location_fluttify] /Users/mac/Documents/flutter_app/build/amap_location_fluttify/intermediates/library_manifest/debug/AndroidManifest.xml:13:22-73
+20    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" /> <!-- 用于读取手机当前的状态 -->
+20-->[:amap_location_fluttify] /Users/mac/Documents/flutter_app/build/amap_location_fluttify/intermediates/library_manifest/debug/AndroidManifest.xml:15:5-76
+20-->[:amap_location_fluttify] /Users/mac/Documents/flutter_app/build/amap_location_fluttify/intermediates/library_manifest/debug/AndroidManifest.xml:15:22-73
+21    <uses-permission android:name="android.permission.READ_PHONE_STATE" /> <!-- 用于写入缓存数据到扩展存储卡 -->
+21-->[:amap_location_fluttify] /Users/mac/Documents/flutter_app/build/amap_location_fluttify/intermediates/library_manifest/debug/AndroidManifest.xml:19:5-75
+21-->[:amap_location_fluttify] /Users/mac/Documents/flutter_app/build/amap_location_fluttify/intermediates/library_manifest/debug/AndroidManifest.xml:19:22-72
+22    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" /> <!-- 用于申请调用A-GPS模块 -->
+22-->[:amap_location_fluttify] /Users/mac/Documents/flutter_app/build/amap_location_fluttify/intermediates/library_manifest/debug/AndroidManifest.xml:21:5-81
+22-->[:amap_location_fluttify] /Users/mac/Documents/flutter_app/build/amap_location_fluttify/intermediates/library_manifest/debug/AndroidManifest.xml:21:22-78
+23    <uses-permission android:name="android.permission.ACCESS_LOCATION_EXTRA_COMMANDS" /> <!-- 用于申请获取蓝牙信息进行室内定位 -->
+23-->[:amap_location_fluttify] /Users/mac/Documents/flutter_app/build/amap_location_fluttify/intermediates/library_manifest/debug/AndroidManifest.xml:23:5-89
+23-->[:amap_location_fluttify] /Users/mac/Documents/flutter_app/build/amap_location_fluttify/intermediates/library_manifest/debug/AndroidManifest.xml:23:22-86
+24    <uses-permission android:name="android.permission.BLUETOOTH" />
+24-->[:amap_location_fluttify] /Users/mac/Documents/flutter_app/build/amap_location_fluttify/intermediates/library_manifest/debug/AndroidManifest.xml:25:5-68
+24-->[:amap_location_fluttify] /Users/mac/Documents/flutter_app/build/amap_location_fluttify/intermediates/library_manifest/debug/AndroidManifest.xml:25:22-65
+25    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
+25-->[:amap_location_fluttify] /Users/mac/Documents/flutter_app/build/amap_location_fluttify/intermediates/library_manifest/debug/AndroidManifest.xml:26:5-74
+25-->[:amap_location_fluttify] /Users/mac/Documents/flutter_app/build/amap_location_fluttify/intermediates/library_manifest/debug/AndroidManifest.xml:26:22-71
+26    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" /> <!-- 如果不加回报 error, Neither user 10426 nor current process has android.permission.WAKE_LOCK., null -->
+27    <uses-permission android:name="android.permission.WAKE_LOCK" />
+27-->[:amap_map_fluttify] /Users/mac/Documents/flutter_app/build/amap_map_fluttify/intermediates/library_manifest/debug/AndroidManifest.xml:20:5-68
+27-->[:amap_map_fluttify] /Users/mac/Documents/flutter_app/build/amap_map_fluttify/intermediates/library_manifest/debug/AndroidManifest.xml:20:22-65
+28    <!--
+29 io.flutter.app.FlutterApplication is an android.app.Application that
+30         calls FlutterMain.startInitialization(this); in its onCreate method.
+31         In most cases you can leave this as-is, but you if you want to provide
+32         additional functionality it is fine to subclass or reimplement
+33         FlutterApplication and put your custom class here.
+34    -->
+35    <application
+35-->/Users/mac/Documents/flutter_app/android/app/src/main/AndroidManifest.xml:8:5-29:19
+36        android:name="com.example.flutterapp.MyApplication"
+36-->/Users/mac/Documents/flutter_app/android/app/src/main/AndroidManifest.xml:9:9-38
+37        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+37-->[androidx.core:core:1.1.0] /Users/mac/.gradle/caches/transforms-2/files-2.1/a528b13ac93e64cafa3d0480e2c93207/core-1.1.0/AndroidManifest.xml:24:18-86
+38        android:debuggable="true"
+39        android:icon="@mipmap/ic_launcher"
+39-->/Users/mac/Documents/flutter_app/android/app/src/main/AndroidManifest.xml:11:9-43
+40        android:label="flutterapp" >
+40-->/Users/mac/Documents/flutter_app/android/app/src/main/AndroidManifest.xml:10:9-35
+41        <activity
+41-->/Users/mac/Documents/flutter_app/android/app/src/main/AndroidManifest.xml:12:9-23:20
+42            android:name="com.example.flutterapp.MainActivity"
+42-->/Users/mac/Documents/flutter_app/android/app/src/main/AndroidManifest.xml:13:13-41
+43            android:configChanges="orientation|keyboardHidden|keyboard|screenSize|smallestScreenSize|locale|layoutDirection|fontScale|screenLayout|density|uiMode"
+43-->/Users/mac/Documents/flutter_app/android/app/src/main/AndroidManifest.xml:16:13-163
+44            android:hardwareAccelerated="true"
+44-->/Users/mac/Documents/flutter_app/android/app/src/main/AndroidManifest.xml:17:13-47
+45            android:launchMode="singleTop"
+45-->/Users/mac/Documents/flutter_app/android/app/src/main/AndroidManifest.xml:14:13-43
+46            android:theme="@style/LaunchTheme"
+46-->/Users/mac/Documents/flutter_app/android/app/src/main/AndroidManifest.xml:15:13-47
+47            android:windowSoftInputMode="adjustResize" >
+47-->/Users/mac/Documents/flutter_app/android/app/src/main/AndroidManifest.xml:18:13-55
+48            <intent-filter>
+48-->/Users/mac/Documents/flutter_app/android/app/src/main/AndroidManifest.xml:19:13-22:29
+49                <action android:name="android.intent.action.MAIN" />
+49-->/Users/mac/Documents/flutter_app/android/app/src/main/AndroidManifest.xml:20:17-68
+49-->/Users/mac/Documents/flutter_app/android/app/src/main/AndroidManifest.xml:20:25-66
+50
+51                <category android:name="android.intent.category.LAUNCHER" />
+51-->/Users/mac/Documents/flutter_app/android/app/src/main/AndroidManifest.xml:21:17-76
+51-->/Users/mac/Documents/flutter_app/android/app/src/main/AndroidManifest.xml:21:27-74
+52            </intent-filter>
+53        </activity>
+54        <!--
+55             Don't delete the meta-data below.
+56             This is used by the Flutter tool to generate GeneratedPluginRegistrant.java
+57        -->
+58        <meta-data
+58-->/Users/mac/Documents/flutter_app/android/app/src/main/AndroidManifest.xml:26:9-28:33
+59            android:name="flutterEmbedding"
+59-->/Users/mac/Documents/flutter_app/android/app/src/main/AndroidManifest.xml:27:13-44
+60            android:value="2" />
+60-->/Users/mac/Documents/flutter_app/android/app/src/main/AndroidManifest.xml:28:13-30
+61
+62        <service android:name="com.amap.api.location.APSService" />
+62-->[:amap_location_fluttify] /Users/mac/Documents/flutter_app/build/amap_location_fluttify/intermediates/library_manifest/debug/AndroidManifest.xml:29:9-68
+62-->[:amap_location_fluttify] /Users/mac/Documents/flutter_app/build/amap_location_fluttify/intermediates/library_manifest/debug/AndroidManifest.xml:29:18-65
+63
+64        <activity android:name="com.amap.api.maps.offlinemap.OfflineMapActivity" />
+64-->[:amap_map_fluttify] /Users/mac/Documents/flutter_app/build/amap_map_fluttify/intermediates/library_manifest/debug/AndroidManifest.xml:23:9-84
+64-->[:amap_map_fluttify] /Users/mac/Documents/flutter_app/build/amap_map_fluttify/intermediates/library_manifest/debug/AndroidManifest.xml:23:19-81
+65
+66        <receiver android:name="me.yohom.foundation_fluttify.FluttifyBroadcastReceiver" />
+66-->[:foundation_fluttify] /Users/mac/Documents/flutter_app/build/foundation_fluttify/intermediates/library_manifest/debug/AndroidManifest.xml:8:9-91
+66-->[:foundation_fluttify] /Users/mac/Documents/flutter_app/build/foundation_fluttify/intermediates/library_manifest/debug/AndroidManifest.xml:8:19-88
+67
+68        <activity
+68-->[:url_launcher] /Users/mac/Documents/flutter_app/build/url_launcher/intermediates/library_manifest/debug/AndroidManifest.xml:8:9-11:74
+69            android:name="io.flutter.plugins.urllauncher.WebViewActivity"
+69-->[:url_launcher] /Users/mac/Documents/flutter_app/build/url_launcher/intermediates/library_manifest/debug/AndroidManifest.xml:9:13-74
+70            android:exported="false"
+70-->[:url_launcher] /Users/mac/Documents/flutter_app/build/url_launcher/intermediates/library_manifest/debug/AndroidManifest.xml:10:13-37
+71            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" />
+71-->[:url_launcher] /Users/mac/Documents/flutter_app/build/url_launcher/intermediates/library_manifest/debug/AndroidManifest.xml:11:13-71
+72    </application>
+73
+74</manifest>

@@ -1,0 +1,44 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="me.yohom.amap_map_fluttify" >
+4
+5    <uses-sdk android:minSdkVersion="16" />
+5-->/Users/mac/Documents/sdk/flutter/.pub-cache/hosted/pub.flutter-io.cn/amap_map_fluttify-0.19.1+b2681d9/android/src/main/AndroidManifest.xml
+6
+7    <!-- 允许程序打开网络套接字 -->
+8    <uses-permission android:name="android.permission.INTERNET" />
+8-->/Users/mac/Documents/sdk/flutter/.pub-cache/hosted/pub.flutter-io.cn/amap_map_fluttify-0.19.1+b2681d9/android/src/main/AndroidManifest.xml:5:5-66
+8-->/Users/mac/Documents/sdk/flutter/.pub-cache/hosted/pub.flutter-io.cn/amap_map_fluttify-0.19.1+b2681d9/android/src/main/AndroidManifest.xml:5:22-64
+9    <!-- 允许程序设置内置sd卡的写权限 -->
+10    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+10-->/Users/mac/Documents/sdk/flutter/.pub-cache/hosted/pub.flutter-io.cn/amap_map_fluttify-0.19.1+b2681d9/android/src/main/AndroidManifest.xml:7:5-80
+10-->/Users/mac/Documents/sdk/flutter/.pub-cache/hosted/pub.flutter-io.cn/amap_map_fluttify-0.19.1+b2681d9/android/src/main/AndroidManifest.xml:7:22-78
+11    <!-- 允许程序获取网络状态 -->
+12    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+12-->/Users/mac/Documents/sdk/flutter/.pub-cache/hosted/pub.flutter-io.cn/amap_map_fluttify-0.19.1+b2681d9/android/src/main/AndroidManifest.xml:9:5-78
+12-->/Users/mac/Documents/sdk/flutter/.pub-cache/hosted/pub.flutter-io.cn/amap_map_fluttify-0.19.1+b2681d9/android/src/main/AndroidManifest.xml:9:22-76
+13    <!-- 允许程序访问WiFi网络信息 -->
+14    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+14-->/Users/mac/Documents/sdk/flutter/.pub-cache/hosted/pub.flutter-io.cn/amap_map_fluttify-0.19.1+b2681d9/android/src/main/AndroidManifest.xml:11:5-75
+14-->/Users/mac/Documents/sdk/flutter/.pub-cache/hosted/pub.flutter-io.cn/amap_map_fluttify-0.19.1+b2681d9/android/src/main/AndroidManifest.xml:11:22-73
+15    <!-- 允许程序读写手机状态和身份 -->
+16    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+16-->/Users/mac/Documents/sdk/flutter/.pub-cache/hosted/pub.flutter-io.cn/amap_map_fluttify-0.19.1+b2681d9/android/src/main/AndroidManifest.xml:13:5-74
+16-->/Users/mac/Documents/sdk/flutter/.pub-cache/hosted/pub.flutter-io.cn/amap_map_fluttify-0.19.1+b2681d9/android/src/main/AndroidManifest.xml:13:22-72
+17    <!-- 允许程序访问CellID或WiFi热点来获取粗略的位置 -->
+18    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+18-->/Users/mac/Documents/sdk/flutter/.pub-cache/hosted/pub.flutter-io.cn/amap_map_fluttify-0.19.1+b2681d9/android/src/main/AndroidManifest.xml:15:5-80
+18-->/Users/mac/Documents/sdk/flutter/.pub-cache/hosted/pub.flutter-io.cn/amap_map_fluttify-0.19.1+b2681d9/android/src/main/AndroidManifest.xml:15:22-78
+19    <!-- 如果不加回报 error, Neither user 10426 nor current process has android.permission.WAKE_LOCK., null -->
+20    <uses-permission android:name="android.permission.WAKE_LOCK" />
+20-->/Users/mac/Documents/sdk/flutter/.pub-cache/hosted/pub.flutter-io.cn/amap_map_fluttify-0.19.1+b2681d9/android/src/main/AndroidManifest.xml:17:5-67
+20-->/Users/mac/Documents/sdk/flutter/.pub-cache/hosted/pub.flutter-io.cn/amap_map_fluttify-0.19.1+b2681d9/android/src/main/AndroidManifest.xml:17:22-65
+21
+22    <application>
+22-->/Users/mac/Documents/sdk/flutter/.pub-cache/hosted/pub.flutter-io.cn/amap_map_fluttify-0.19.1+b2681d9/android/src/main/AndroidManifest.xml:19:5-21:19
+23        <activity android:name="com.amap.api.maps.offlinemap.OfflineMapActivity" />
+23-->/Users/mac/Documents/sdk/flutter/.pub-cache/hosted/pub.flutter-io.cn/amap_map_fluttify-0.19.1+b2681d9/android/src/main/AndroidManifest.xml:20:9-84
+23-->/Users/mac/Documents/sdk/flutter/.pub-cache/hosted/pub.flutter-io.cn/amap_map_fluttify-0.19.1+b2681d9/android/src/main/AndroidManifest.xml:20:19-81
+24    </application>
+25
+26</manifest>

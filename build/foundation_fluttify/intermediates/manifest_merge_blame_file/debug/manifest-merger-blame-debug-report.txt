@@ -1,0 +1,15 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="me.yohom.foundation_fluttify" >
+4
+5    <uses-sdk android:minSdkVersion="16" />
+5-->/Users/mac/Documents/sdk/flutter/.pub-cache/hosted/pub.flutter-io.cn/foundation_fluttify-0.5.1/android/src/main/AndroidManifest.xml
+6
+7    <application>
+7-->/Users/mac/Documents/sdk/flutter/.pub-cache/hosted/pub.flutter-io.cn/foundation_fluttify-0.5.1/android/src/main/AndroidManifest.xml:4:5-6:19
+8        <receiver android:name="me.yohom.foundation_fluttify.FluttifyBroadcastReceiver" />
+8-->/Users/mac/Documents/sdk/flutter/.pub-cache/hosted/pub.flutter-io.cn/foundation_fluttify-0.5.1/android/src/main/AndroidManifest.xml:5:9-63
+8-->/Users/mac/Documents/sdk/flutter/.pub-cache/hosted/pub.flutter-io.cn/foundation_fluttify-0.5.1/android/src/main/AndroidManifest.xml:5:19-60
+9    </application>
+10
+11</manifest>

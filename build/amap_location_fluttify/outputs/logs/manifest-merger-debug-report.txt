@@ -1,0 +1,69 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /Users/mac/Documents/sdk/flutter/.pub-cache/hosted/pub.flutter-io.cn/amap_location_fluttify-0.10.0+e74b91b/android/src/main/AndroidManifest.xml:1:1-29:12
+INJECTED from /Users/mac/Documents/sdk/flutter/.pub-cache/hosted/pub.flutter-io.cn/amap_location_fluttify-0.10.0+e74b91b/android/src/main/AndroidManifest.xml:1:1-29:12
+INJECTED from /Users/mac/Documents/sdk/flutter/.pub-cache/hosted/pub.flutter-io.cn/amap_location_fluttify-0.10.0+e74b91b/android/src/main/AndroidManifest.xml:1:1-29:12
+	package
+		ADDED from /Users/mac/Documents/sdk/flutter/.pub-cache/hosted/pub.flutter-io.cn/amap_location_fluttify-0.10.0+e74b91b/android/src/main/AndroidManifest.xml:2:3-44
+		INJECTED from /Users/mac/Documents/sdk/flutter/.pub-cache/hosted/pub.flutter-io.cn/amap_location_fluttify-0.10.0+e74b91b/android/src/main/AndroidManifest.xml
+		INJECTED from /Users/mac/Documents/sdk/flutter/.pub-cache/hosted/pub.flutter-io.cn/amap_location_fluttify-0.10.0+e74b91b/android/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /Users/mac/Documents/sdk/flutter/.pub-cache/hosted/pub.flutter-io.cn/amap_location_fluttify-0.10.0+e74b91b/android/src/main/AndroidManifest.xml:1:11-69
+uses-permission#android.permission.ACCESS_COARSE_LOCATION
+ADDED from /Users/mac/Documents/sdk/flutter/.pub-cache/hosted/pub.flutter-io.cn/amap_location_fluttify-0.10.0+e74b91b/android/src/main/AndroidManifest.xml:4:5-80
+	android:name
+		ADDED from /Users/mac/Documents/sdk/flutter/.pub-cache/hosted/pub.flutter-io.cn/amap_location_fluttify-0.10.0+e74b91b/android/src/main/AndroidManifest.xml:4:22-78
+uses-permission#android.permission.ACCESS_FINE_LOCATION
+ADDED from /Users/mac/Documents/sdk/flutter/.pub-cache/hosted/pub.flutter-io.cn/amap_location_fluttify-0.10.0+e74b91b/android/src/main/AndroidManifest.xml:6:5-78
+	android:name
+		ADDED from /Users/mac/Documents/sdk/flutter/.pub-cache/hosted/pub.flutter-io.cn/amap_location_fluttify-0.10.0+e74b91b/android/src/main/AndroidManifest.xml:6:22-76
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from /Users/mac/Documents/sdk/flutter/.pub-cache/hosted/pub.flutter-io.cn/amap_location_fluttify-0.10.0+e74b91b/android/src/main/AndroidManifest.xml:8:5-78
+	android:name
+		ADDED from /Users/mac/Documents/sdk/flutter/.pub-cache/hosted/pub.flutter-io.cn/amap_location_fluttify-0.10.0+e74b91b/android/src/main/AndroidManifest.xml:8:22-76
+uses-permission#android.permission.ACCESS_WIFI_STATE
+ADDED from /Users/mac/Documents/sdk/flutter/.pub-cache/hosted/pub.flutter-io.cn/amap_location_fluttify-0.10.0+e74b91b/android/src/main/AndroidManifest.xml:10:5-75
+	android:name
+		ADDED from /Users/mac/Documents/sdk/flutter/.pub-cache/hosted/pub.flutter-io.cn/amap_location_fluttify-0.10.0+e74b91b/android/src/main/AndroidManifest.xml:10:22-73
+uses-permission#android.permission.CHANGE_WIFI_STATE
+ADDED from /Users/mac/Documents/sdk/flutter/.pub-cache/hosted/pub.flutter-io.cn/amap_location_fluttify-0.10.0+e74b91b/android/src/main/AndroidManifest.xml:12:5-75
+	android:name
+		ADDED from /Users/mac/Documents/sdk/flutter/.pub-cache/hosted/pub.flutter-io.cn/amap_location_fluttify-0.10.0+e74b91b/android/src/main/AndroidManifest.xml:12:22-73
+uses-permission#android.permission.INTERNET
+ADDED from /Users/mac/Documents/sdk/flutter/.pub-cache/hosted/pub.flutter-io.cn/amap_location_fluttify-0.10.0+e74b91b/android/src/main/AndroidManifest.xml:14:5-66
+	android:name
+		ADDED from /Users/mac/Documents/sdk/flutter/.pub-cache/hosted/pub.flutter-io.cn/amap_location_fluttify-0.10.0+e74b91b/android/src/main/AndroidManifest.xml:14:22-64
+uses-permission#android.permission.READ_PHONE_STATE
+ADDED from /Users/mac/Documents/sdk/flutter/.pub-cache/hosted/pub.flutter-io.cn/amap_location_fluttify-0.10.0+e74b91b/android/src/main/AndroidManifest.xml:16:5-74
+	android:name
+		ADDED from /Users/mac/Documents/sdk/flutter/.pub-cache/hosted/pub.flutter-io.cn/amap_location_fluttify-0.10.0+e74b91b/android/src/main/AndroidManifest.xml:16:22-72
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from /Users/mac/Documents/sdk/flutter/.pub-cache/hosted/pub.flutter-io.cn/amap_location_fluttify-0.10.0+e74b91b/android/src/main/AndroidManifest.xml:18:5-80
+	android:name
+		ADDED from /Users/mac/Documents/sdk/flutter/.pub-cache/hosted/pub.flutter-io.cn/amap_location_fluttify-0.10.0+e74b91b/android/src/main/AndroidManifest.xml:18:22-78
+uses-permission#android.permission.ACCESS_LOCATION_EXTRA_COMMANDS
+ADDED from /Users/mac/Documents/sdk/flutter/.pub-cache/hosted/pub.flutter-io.cn/amap_location_fluttify-0.10.0+e74b91b/android/src/main/AndroidManifest.xml:20:5-88
+	android:name
+		ADDED from /Users/mac/Documents/sdk/flutter/.pub-cache/hosted/pub.flutter-io.cn/amap_location_fluttify-0.10.0+e74b91b/android/src/main/AndroidManifest.xml:20:22-86
+uses-permission#android.permission.BLUETOOTH
+ADDED from /Users/mac/Documents/sdk/flutter/.pub-cache/hosted/pub.flutter-io.cn/amap_location_fluttify-0.10.0+e74b91b/android/src/main/AndroidManifest.xml:22:5-67
+	android:name
+		ADDED from /Users/mac/Documents/sdk/flutter/.pub-cache/hosted/pub.flutter-io.cn/amap_location_fluttify-0.10.0+e74b91b/android/src/main/AndroidManifest.xml:22:22-65
+uses-permission#android.permission.BLUETOOTH_ADMIN
+ADDED from /Users/mac/Documents/sdk/flutter/.pub-cache/hosted/pub.flutter-io.cn/amap_location_fluttify-0.10.0+e74b91b/android/src/main/AndroidManifest.xml:23:5-73
+	android:name
+		ADDED from /Users/mac/Documents/sdk/flutter/.pub-cache/hosted/pub.flutter-io.cn/amap_location_fluttify-0.10.0+e74b91b/android/src/main/AndroidManifest.xml:23:22-71
+application
+ADDED from /Users/mac/Documents/sdk/flutter/.pub-cache/hosted/pub.flutter-io.cn/amap_location_fluttify-0.10.0+e74b91b/android/src/main/AndroidManifest.xml:25:5-27:19
+service#com.amap.api.location.APSService
+ADDED from /Users/mac/Documents/sdk/flutter/.pub-cache/hosted/pub.flutter-io.cn/amap_location_fluttify-0.10.0+e74b91b/android/src/main/AndroidManifest.xml:26:9-67
+	android:name
+		ADDED from /Users/mac/Documents/sdk/flutter/.pub-cache/hosted/pub.flutter-io.cn/amap_location_fluttify-0.10.0+e74b91b/android/src/main/AndroidManifest.xml:26:18-65
+uses-sdk
+INJECTED from /Users/mac/Documents/sdk/flutter/.pub-cache/hosted/pub.flutter-io.cn/amap_location_fluttify-0.10.0+e74b91b/android/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /Users/mac/Documents/sdk/flutter/.pub-cache/hosted/pub.flutter-io.cn/amap_location_fluttify-0.10.0+e74b91b/android/src/main/AndroidManifest.xml
+INJECTED from /Users/mac/Documents/sdk/flutter/.pub-cache/hosted/pub.flutter-io.cn/amap_location_fluttify-0.10.0+e74b91b/android/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /Users/mac/Documents/sdk/flutter/.pub-cache/hosted/pub.flutter-io.cn/amap_location_fluttify-0.10.0+e74b91b/android/src/main/AndroidManifest.xml
+		ADDED from /Users/mac/Documents/sdk/flutter/.pub-cache/hosted/pub.flutter-io.cn/amap_location_fluttify-0.10.0+e74b91b/android/src/main/AndroidManifest.xml
+		INJECTED from /Users/mac/Documents/sdk/flutter/.pub-cache/hosted/pub.flutter-io.cn/amap_location_fluttify-0.10.0+e74b91b/android/src/main/AndroidManifest.xml

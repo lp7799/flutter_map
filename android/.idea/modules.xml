@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/../../sdk/flutter/.pub-cache/hosted/pub.flutter-io.cn/amap_all_fluttify-0.13.1+1/android/amap_all_fluttify.iml" filepath="$PROJECT_DIR$/../../sdk/flutter/.pub-cache/hosted/pub.flutter-io.cn/amap_all_fluttify-0.13.1+1/android/amap_all_fluttify.iml" group="android/amap_all_fluttify" />
+      <module fileurl="file://$PROJECT_DIR$/../../sdk/flutter/.pub-cache/hosted/pub.flutter-io.cn/amap_core_fluttify-0.6.0+b2681d9/android/amap_core_fluttify.iml" filepath="$PROJECT_DIR$/../../sdk/flutter/.pub-cache/hosted/pub.flutter-io.cn/amap_core_fluttify-0.6.0+b2681d9/android/amap_core_fluttify.iml" group="android/amap_core_fluttify" />
+      <module fileurl="file://$PROJECT_DIR$/../../sdk/flutter/.pub-cache/hosted/pub.flutter-io.cn/amap_location_fluttify-0.10.0+e74b91b/android/amap_location_fluttify.iml" filepath="$PROJECT_DIR$/../../sdk/flutter/.pub-cache/hosted/pub.flutter-io.cn/amap_location_fluttify-0.10.0+e74b91b/android/amap_location_fluttify.iml" group="android/amap_location_fluttify" />
+      <module fileurl="file://$PROJECT_DIR$/../../sdk/flutter/.pub-cache/hosted/pub.flutter-io.cn/amap_map_fluttify-0.19.1+b2681d9/android/amap_map_fluttify.iml" filepath="$PROJECT_DIR$/../../sdk/flutter/.pub-cache/hosted/pub.flutter-io.cn/amap_map_fluttify-0.19.1+b2681d9/android/amap_map_fluttify.iml" group="android/amap_map_fluttify" />
+      <module fileurl="file://$PROJECT_DIR$/../../sdk/flutter/.pub-cache/hosted/pub.flutter-io.cn/amap_search_fluttify-0.8.2+1/android/amap_search_fluttify.iml" filepath="$PROJECT_DIR$/../../sdk/flutter/.pub-cache/hosted/pub.flutter-io.cn/amap_search_fluttify-0.8.2+1/android/amap_search_fluttify.iml" group="android/amap_search_fluttify" />
+      <module fileurl="file://$PROJECT_DIR$/android.iml" filepath="$PROJECT_DIR$/android.iml" group="android" />
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" group="android/app" />
+      <module fileurl="file://$PROJECT_DIR$/../../sdk/flutter/.pub-cache/hosted/pub.flutter-io.cn/foundation_fluttify-0.5.1/android/foundation_fluttify.iml" filepath="$PROJECT_DIR$/../../sdk/flutter/.pub-cache/hosted/pub.flutter-io.cn/foundation_fluttify-0.5.1/android/foundation_fluttify.iml" group="android/foundation_fluttify" />
+      <module fileurl="file://$PROJECT_DIR$/../../sdk/flutter/.pub-cache/hosted/pub.flutter-io.cn/permission_handler-4.4.0+hotfix.4/android/permission_handler.iml" filepath="$PROJECT_DIR$/../../sdk/flutter/.pub-cache/hosted/pub.flutter-io.cn/permission_handler-4.4.0+hotfix.4/android/permission_handler.iml" group="android/permission_handler" />
+      <module fileurl="file://$PROJECT_DIR$/../../sdk/flutter/.pub-cache/hosted/pub.flutter-io.cn/url_launcher-5.4.2/android/url_launcher.iml" filepath="$PROJECT_DIR$/../../sdk/flutter/.pub-cache/hosted/pub.flutter-io.cn/url_launcher-5.4.2/android/url_launcher.iml" group="android/url_launcher" />
+      <module fileurl="file://$PROJECT_DIR$/../../sdk/flutter/.pub-cache/hosted/pub.flutter-io.cn/url_launcher_macos-0.0.1+4/android/url_launcher_macos.iml" filepath="$PROJECT_DIR$/../../sdk/flutter/.pub-cache/hosted/pub.flutter-io.cn/url_launcher_macos-0.0.1+4/android/url_launcher_macos.iml" group="android/url_launcher_macos" />
+      <module fileurl="file://$PROJECT_DIR$/../../sdk/flutter/.pub-cache/hosted/pub.flutter-io.cn/url_launcher_web-0.1.1+1/android/url_launcher_web.iml" filepath="$PROJECT_DIR$/../../sdk/flutter/.pub-cache/hosted/pub.flutter-io.cn/url_launcher_web-0.1.1+1/android/url_launcher_web.iml" group="android/url_launcher_web" />
+    </modules>
+  </component>
+</project>
