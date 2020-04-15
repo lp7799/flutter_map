@@ -70,11 +70,19 @@
       <option name="project" value="LOCAL" />
       <updated>1586936233221</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="feat: first commit">
+      <created>1586938977659</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1586938977659</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="mac" />
-    <option name="LAST_COMMIT_MESSAGE" value="mac" />
+    <MESSAGE value="feat: first commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: first commit" />
   </component>
 </project>
